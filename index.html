@@ -23,7 +23,7 @@
     </header>
 
     <!-- about section -->
-    <div class="about">
+    <section class="about">
         <div class="profile-image">Image</div>
         <div class="description">
             <div class="my-info">
@@ -33,27 +33,51 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, excepturi.
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- projects section -->
-    <div class="projects">
+    <section class="projects">
 
-    </div>
+    </section>
 
     <!-- contact and socials -->
-    <div class="contact">
-        <div class="socials"></div>
+    <section class="contact">
+        <div class="socials">
+            <div class="socials-email">
+                <img src="./images/envelope.png" alt="small image of envelope" width="21px">
+                <a href="#">
+                    Email
+                </a>
+            </div>
+            <div class="socials-github">
+                <img src="./images/Github_logo.png" alt="logo of github website" width="21px">
+                <a href="#">
+                    GitHub
+                </a>
+            </div>
+            <div class="socials-linkedIn">
+                <img src="./images/linkedin_logo.png" alt="logo of linkedin website" width="21px">
+                <a href="#">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
         <div class="contact-form">
             <form action="" method="post">
-                <label for="userName">Name</label>
-                <input type="text" id="userName">
-                <label for="userEmail">Email</label>
-                <input type="text" id="userEmail">
-                <label for="userMessage">Message</label>
-                <textarea id="userMessage" cols="30" rows="10">Type your message here</textarea>
+                <div class="user-details">
+                    <label for="userName">Name</label> <br>
+                    <input type="text" id="userName"> <br>
+                    <label for="userEmail">Email</label> <br>
+                    <input type="text" id="userEmail"> <br>
+                    <button class="user-message-form-button">Send Message</button>
+                </div>
+                <div class="user-message">
+                    <label for="userMessage">Message</label> <br>
+                    <textarea id="userMessage" cols="30" rows="10">Type your message here</textarea>
+                </div>
             </form>
         </div>
-    </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
